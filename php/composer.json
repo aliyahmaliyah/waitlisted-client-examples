@@ -1,0 +1,19 @@
+{
+    "name": "waitlisted/php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Justin McNally",
+            "email": "justin@waitlisted.co"
+        }
+    ],
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/Waitlisted/waitlisted-php.git"
+      }
+    ],
+    "require": {
+      "Waitlisted/waitlisted-php": "*@dev"
+    }
+}

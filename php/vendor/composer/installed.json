@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Waitlisted/waitlisted-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Waitlisted/waitlisted-php.git",
+            "reference": "2e0c6b94f3d5f4cb8075ba751cd30889f2ad32e7"
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8",
+            "satooshi/php-coveralls": "~1.0",
+            "squizlabs/php_codesniffer": "~2.6"
+        },
+        "time": "2017-02-08T19:09:51+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Waitlisted\\": "lib/"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Waitlisted\\": "test/"
+            }
+        },
+        "license": [
+            "Apache v2"
+        ],
+        "authors": [
+            {
+                "name": "Swagger and contributors",
+                "homepage": "https://github.com/swagger-api/swagger-codegen"
+            }
+        ],
+        "homepage": "http://swagger.io",
+        "keywords": [
+            "api",
+            "php",
+            "sdk",
+            "swagger"
+        ]
+    }
+]
