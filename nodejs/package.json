@@ -1,0 +1,12 @@
+{
+  "name": "waitlisted-example",
+  "version": "1.0.0",
+  "description": "A sample for setting up the waitlisted api with nodejs",
+  "main": "index.js",
+  "repository": {},
+  "author": "justin@waitlisted.co",
+  "license": "MIT",
+  "dependencies": {
+    "waitlisted": "waitlisted/waitlisted-js"
+  }
+}
